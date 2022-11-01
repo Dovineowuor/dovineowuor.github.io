@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* body */
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  position: absolute;
+  width: 1366px;
+  height: 1223px;
+  left: 59px;
+  top: 21px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container{
+  height: 1315px;
+  width: 1366px;
+  left: 0px;
+  top: 89px;
+  border-radius: [object Object]px;
+  
+
+}
+
+.nav-bar{
+  /* nav-bar */
+  position: absolute;
+  width: 1356px;
+  height: 116px;
+  left: 59px;
+  top: 21px;
+}
+  .logo{
+    /* logo */
+    position: absolute;
+    width: 305.9px;
+    height: 115.76px;
+    left: 59px;
+    top: 21px;
+  }
+.hero-banner{
+  /* hero-banner */
+  position: absolute;
+  width: 1356px;
+  height: 156px;
+  left: 0px;
+  top: 204px;
+}
+
