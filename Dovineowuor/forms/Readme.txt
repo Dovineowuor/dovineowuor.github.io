@@ -1,0 +1,1 @@
+# Fully responsive web component
