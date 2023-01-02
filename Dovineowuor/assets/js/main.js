@@ -1,8 +1,6 @@
 /**
-* Template Name: DevFolio - v4.9.1
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Template Name: Developer Portfolio
+* Author: Dovine Owuor
 */
 (function() {
   "use strict";
@@ -231,4 +229,4 @@
    */
   new PureCounter();
 
-})()
+})
