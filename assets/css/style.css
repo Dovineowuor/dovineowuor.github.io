@@ -3,6 +3,8 @@ body {
   color: #4e4e4e;
 }
 
+#more {display: none;}
+
 h1,
 h2,
 h3,
