@@ -167,6 +167,38 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <style>
+                                        .glassmorphic-container {
+                                            background: rgba(255, 255, 255, 0.2);
+                                            backdrop-filter: blur(10px);
+                                            border-radius: 20px;
+                                            padding: 20px;
+                                            margin-bottom: 20px;
+                                        }
+
+                                        .glassmorphic-content {
+                                            background: rgba(255, 255, 255, 0.1);
+                                            border-radius: 15px;
+                                            padding: 20px;
+                                        }
+
+                                        .glassmorphic-modal-content {
+                                            background: rgba(255, 255, 255, 0.1);
+                                            border-radius: 15px;
+                                            padding: 20px;
+                                        }
+
+                                        .glassmorphic-button {
+                                            width: 150px;
+                                            height: 60px;
+                                            text-align: center;
+                                            background-color: rgba(255, 255, 255, 0.1);
+                                            color: #13d7d0;
+                                            border-radius: 15px;
+                                            border: none;
+                                            cursor: pointer;
+                                        }
+                                    </style>
                                     <div class="col-md-6">
                                         <div class="about-me pt-4 pt-md-0">
                                             <div class="title-box-2">
@@ -175,58 +207,104 @@
                                                 </h5>
                                             </div>
 
-                                            <p class="lead">
-                                                Ideas can change the world, being the reason why I spend my career
-                                                searching for good ideas, writing about them and trying to help get them
-                                                into practice. I believe that we are at a moment when we need
-                                                intelligent change more than ever.
+                                            <div>
+                                                <p class="lead">
+                                                    Dedicated to the transformative power of ideas, I have centered my
+                                                    career around seeking and promoting impactful
+                                                    concepts that can change the world. My commitment involves
+                                                    exploring, documenting, and facilitating the
+                                                    implementation of these ideas, particularly during a crucial period
+                                                    where intelligent change is more imperative
+                                                    than ever.
+                                                </p>
 
-                                            </p>
-                                            <p class="lead">
-                                                I love to bring together people with great ideas - launching and
-                                                moderating conferences for The Economist (Dovetec.org, Micro-Mentors and
-                                                much more ) and many societal problem-solving convenings during my time
-                                                leading the Dovetec.org program to build
-                                                experiences in technological fields. I founded the Dovetec.org, a
-                                                software Engineering Startup working towards solving workforce
-                                                complexities delivering solutions to the workforce challenges. I am
-                                                currently
-                                                working on another, on the movement to build a just and sustainable
-                                                economic system. I have advised and collaborated with innovators in
-                                                business, government, social enterprise, investing and philanthropy. I
-                                                am currently working on a portfolio of change-making projects.As a
-                                                Micro-mentor at Micro Mentors by Mercy Cheps, I help youths, SMEs, Young
-                                                Aspiring Entrepreneurs, Inventors and innovators realize their worth
-                                                in their respective ecosystems.
+                                                <p class="lead">
+                                                    My passion lies in uniting individuals with innovative ideas,
+                                                    evident in my role as a conference organizer and
+                                                    moderator for The Economist (Dovetec.org, Micro-Mentors, and more).
+                                                    Throughout my leadership at Dovetec.org,
+                                                    where I orchestrated various societal problem-solving gatherings, I
+                                                    honed my expertise in technological fields.
+                                                    As the founder of Dovetec.org, a software engineering startup
+                                                    focused on addressing workforce complexities, I lead
+                                                    initiatives to deliver solutions to pressing workforce challenges.
+                                                    Currently, I am actively involved in another
+                                                    project dedicated to building a just and sustainable economic
+                                                    system, collaborating with innovators across diverse
+                                                    sectors.
+                                                </p>
 
+                                                <button
+                                                    style="width: 150px; height: 60px; text-align: center; background-color: transparent; color: #13d7d0; border-radius: 15px 0 15px 0;"
+                                                    onclick="openModal()" id="discoverMoreBtn">Discover More</button>
+                                            </div>
 
-                                            </p>
-                                            <p class="lead">
+                                            <!-- The Modal -->
+                                            <div id="myModal" class="modal"
+                                                style="margin-top: 200px;
+                                                                                width: fit-content;
+                                                                                border-radius: 15px;
+                                                                                margin: 35px;
+                                                                                padding:3rem ;
+                                                                                box-shadow: 0 0 20px rgba(17, 184, 156, 0.693); /* Glassmorphic shadow */
+                                                                                border: .5px rgba(8, 232, 180, 0.566);">
+                                                <div class="modal-content">
+                                                    <span class="close" onclick="closeModal()">&times;</span>
 
-                                                I am currently Enrolled in a Bachelor's degree in computer Science at my
-                                                second Year University of The People. I am skilled in the field of
-                                                computer applications and also Hardware installation, assembly and
-                                                Management I am a young, Curious wholehearted,
-                                                generous and industrious guy who is goal oriented and my guiding cuidar
-                                                is delivering solutions to workforce challenges I am a programmer with 3
-                                                year of experience In Front end and 2 year experience in Backend.
-                                                I employ frameworks such as Laravel, Django, Flask in the backend and
-                                                Vue.js, Angular.js, React in both front and Backend I love challenges
-                                                and I am open for challenges, Collaboration in both opensource and
-                                                personal projects. I am passionate about programming and software
-                                                development. I am into web development, Android development, App
-                                                development. I have a three year experience in my data entry profession.
-                                                I am
-                                                an upcoming author working on my Book. I am good at Data Management,
-                                                Academic, Writing, Technical writing applying the latest citation and
-                                                appropriate writing techniques. </span>
-                                            </p>
-                                            <!-- <button onclick="myFunction()" id="myBtn">Read more</button> -->
+                                                    <p class="lead">
+                                                        My commitment extends to mentorship, serving as a Micro-Mentor
+                                                        at Micro Mentors by Mercy Cheps, where I guide
+                                                        youths, SMEs, aspiring entrepreneurs, inventors, and innovators
+                                                        to realize their potential within their
+                                                        respective ecosystems.
+                                                    </p>
 
-                                            </p>
+                                                    <p class="lead">
+                                                        In pursuit of academic excellence, I am enrolled in my second
+                                                        year of a Bachelor's degree in Computer Science
+                                                        at the University of The People. Proficient in both computer
+                                                        applications and hardware management, I embody
+                                                        curiosity, generosity, and industriousness. My overarching goal
+                                                        is to provide solutions to workforce
+                                                        challenges. With three years of programming experience in
+                                                        front-end and two years in back-end development, I
+                                                        leverage frameworks such as Laravel, Django, Flask, Vue.js,
+                                                        Angular.js, and React.
+                                                    </p>
 
+                                                    <p class="lead">
+                                                        Embracing challenges, I am open to collaborations in both open
+                                                        source and personal projects. My passion for
+                                                        programming extends to web development, Android app development,
+                                                        and various software projects. Beyond the
+                                                        realm of technology, I bring three years of expertise in data
+                                                        entry and am currently working on a book as an
+                                                        aspiring author. Proficient in data management, academic and
+                                                        technical writing, I apply the latest citation and
+                                                        writing techniques in my work.
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <script>
+                                                function openModal() {
+                                                    document.getElementById('myModal').style.display = 'block';
+                                                }
+
+                                                function closeModal() {
+                                                    document.getElementById('myModal').style.display = 'none';
+                                                }
+
+                                                window.onclick = function (event) {
+                                                    if (event.target == document.getElementById('myModal')) {
+                                                        closeModal();
+                                                    }
+                                                }
+                                            </script>
                                         </div>
                                     </div>
+
+
                                 </div>
                             </div>
                         </div>
@@ -699,7 +777,10 @@
                                     Blogs And Latesst Articles
                                 </h3>
                                 <p class="subtitle-a">
-                                    Explore the depths of my writing tech crafts, where I share valuable insights and expertise to captivate your interest and drive meaningful engagement. Discover the artistry that not only informs but also inspires, aiming to cultivate expertize on readers.
+                                    Explore the depths of my writing tech crafts, where I share valuable insights and
+                                    expertise to captivate your interest and drive meaningful engagement. Discover the
+                                    artistry that not only informs but also inspires, aiming to cultivate expertize on
+                                    readers.
                                 </p>
                                 <div class="line-mf"></div>
                             </div>
@@ -709,8 +790,9 @@
                         <div class="col-md-4">
                             <div class="card card-blog">
                                 <div class="card-img">
-                                    <a href="blog-single.html"><img src="https://miro.medium.com/v2/resize:fit:640/format:webp/0*-txBLSv3J8Z0xzLt.png" alt=""
-                                            class="img-fluid"></a>
+                                    <a href="blog-single.html"><img
+                                            src="https://miro.medium.com/v2/resize:fit:640/format:webp/0*-txBLSv3J8Z0xzLt.png"
+                                            alt="" class="img-fluid"></a>
                                 </div>
                                 <div class="card-body">
                                     <div class="card-category-box">
@@ -718,12 +800,15 @@
                                             <h6 class="category">CI/CD Automation</h6>
                                         </div>
                                     </div>
-                                    <h3 class="card-title"><a href="blog-single.html"> Learn More about CI/CD pipelines</a>
+                                    <h3 class="card-title"><a href="blog-single.html"> Learn More about CI/CD
+                                            pipelines</a>
                                     </h3>
                                     <p class="card-description">
-                                        Brace yourselves as we delve into the world of Continuous Integration (CI) and Continuous Deployment (CD) for Django projects using 
-                                        GitHub Actions. By the end of this journey, 
-                                        you’ll have a robust end-to-end CI/CD pipeline for your Django applications, ensuring smoother development and deployment processes.
+                                        Brace yourselves as we delve into the world of Continuous Integration (CI) and
+                                        Continuous Deployment (CD) for Django projects using
+                                        GitHub Actions. By the end of this journey,
+                                        you’ll have a robust end-to-end CI/CD pipeline for your Django applications,
+                                        ensuring smoother development and deployment processes.
                                     </p>
                                 </div>
                                 <div class="card-footer">
@@ -745,22 +830,26 @@
                         <div class="col-md-4">
                             <div class="card card-blog">
                                 <div class="card-img">
-                                    <a href="blog-single.html"><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*O_Y4VGolqILlX-kdPIBKWw.png" alt=""
-                                            class="img-fluid"></a>
+                                    <a href="blog-single.html"><img
+                                            src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*O_Y4VGolqILlX-kdPIBKWw.png"
+                                            alt="" class="img-fluid"></a>
                                 </div>
                                 <div class="card-body">
                                     <div class="card-category-box">
                                         <div class="card-category">
-                                            <h6 class="category">Web Extension  Development</h6>
+                                            <h6 class="category">Web Extension Development</h6>
                                         </div>
                                     </div>
-                                    <h3 class="card-title"><a href="blog-single.html">Hike your Browser extension experience and fun using the API:
-                                        Overview</a>
+                                    <h3 class="card-title"><a href="blog-single.html">Hike your Browser extension
+                                            experience and fun using the API:
+                                            Overview</a>
                                     </h3>
                                     <p class="card-description">
-                                        As the demand for web-based applications grows, developers are constantly 
-                                        looking for innovative ways to improve and streamline the development process. 
-                                        One of these techniques is using APIs (application programming interfaces) when building Chrome extensions for testing purposes. This article explains what APIs are, 
+                                        As the demand for web-based applications grows, developers are constantly
+                                        looking for innovative ways to improve and streamline the development process.
+                                        One of these techniques is using APIs (application programming interfaces) when
+                                        building Chrome extensions for testing purposes. This article explains what APIs
+                                        are,
                                         how they work, and why APIs are useful for testing Chrome extensions.
                                     </p>
                                 </div>
@@ -783,8 +872,9 @@
                         <div class="col-md-4">
                             <div class="card card-blog">
                                 <div class="card-img">
-                                    <a href="blog-single.html"><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*CXAwbVHEs07bCGkd-3l8RQ.jpeg" alt=""
-                                            class="img-fluid"></a>
+                                    <a href="blog-single.html"><img
+                                            src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*CXAwbVHEs07bCGkd-3l8RQ.jpeg"
+                                            alt="" class="img-fluid"></a>
                                 </div>
                                 <div class="card-body">
                                     <div class="card-category-box">
@@ -792,12 +882,13 @@
                                             <h6 class="category">Software Development</h6>
                                         </div>
                                     </div>
-                                    <h3 class="card-title"><a href="blog-single.html">Master Software Development Principles</a>
+                                    <h3 class="card-title"><a href="blog-single.html">Master Software Development
+                                            Principles</a>
                                     </h3>
                                     <p class="card-description">
-                                        In the ever-evolving world of software development, success hinges on 
-                                        a strong foundation of principles. These guiding principles shape the 
-                                        way we design, develop, host, and deploy software solutions. 
+                                        In the ever-evolving world of software development, success hinges on
+                                        a strong foundation of principles. These guiding principles shape the
+                                        way we design, develop, host, and deploy software solutions.
                                         Let’s dive into some key principles that drive excellence in the field
                                     </p>
                                 </div>
@@ -832,7 +923,9 @@
                                 </h3>
                                 <p class="subtitle-a">
                                 <div id="desc">
-                                    <h3 style="font-size: 24px; color: #333; margin-bottom: 10px;">Wanna have a sneak peek at our latest cooking product? Wait no more! Schedule a demo and discover the goodies of being part of the revolution.</h3>
+                                    <h3 style="font-size: 24px; color: #333; margin-bottom: 10px;">Wanna have a sneak
+                                        peek at our latest cooking product? Wait no more! Schedule a demo and discover
+                                        the goodies of being part of the revolution.</h3>
                                 </div>
 
                                 </p>
@@ -842,10 +935,12 @@
                     </div>
                     <!-- Calendly inline widget begin -->
                     <section style="text-align: center; padding: 20px;">
-                        <div class="calendly-inline-widget" data-url="https://calendly.com/techdarasa/demo-session" style="min-width:320px;height:700px; margin: 0 auto;"></div>
-                        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                        <div class="calendly-inline-widget" data-url="https://calendly.com/techdarasa/demo-session"
+                            style="min-width:320px;height:700px; margin: 0 auto;"></div>
+                        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"
+                            async></script>
                     </section>
-                    
+
                     <!-- Calendly inline widget end -->
                 </div>
             </section>
