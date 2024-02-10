@@ -513,19 +513,23 @@ a:hover {
 }
 
 .navbar a,
-.navbar a:focus {
+.navbar a, .navbar a:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
+  color: #fff !important;
+  font-size: 24px !important;
+  font-weight: 900;
   padding: 0;
   white-space: nowrap;
   transition: 0.3s;
   letter-spacing: 0.4px;
   position: relative;
   text-transform: uppercase;
+  text-align: center;
+  flex-direction: row-reverse;
+  align-content: center;
+  flex-wrap: nowrap;
 }
 
 .navbar a i,
@@ -630,6 +634,20 @@ a:hover {
 /**
 * Mobile Navigation 
 */
+.navbar-mobile ul {
+  display: flex;
+
+  position: absolute;
+  top: 55px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  background: linear-gradient(45deg, #f285007d 11%, #198754 100%);
+  overflow-y: auto;
+  transition: 0.3s;
+  border-bottom: thick;
+  text-align: center;
+}
 .mobile-nav-toggle {
   color: #fff;
   font-size: 28px;
