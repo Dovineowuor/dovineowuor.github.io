@@ -72,6 +72,7 @@ a:hover {
 }
 
 .display-6 {
+  padding-top: 150px;
   font-size: 2rem;
   font-weight: 300;
   line-height: 1.1;
@@ -603,7 +604,7 @@ a:hover {
   align-content: flex-start;
   flex-wrap: nowrap;
 }
-}
+
 
 .navbar a i,
 .navbar a:focus i {
@@ -783,7 +784,7 @@ a:hover {
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
-  padding: 16px 357px 
+  padding: 16px 357px ;
   font-size: 15px;
   color: #4e4e4e;
 }
@@ -1433,7 +1434,6 @@ a:hover {
 .card-blog .post-date {
   color: #4e4e4e;
   display: inline-block;
-  float: right;
 }
 
 /*--------------------------------------------------------------
